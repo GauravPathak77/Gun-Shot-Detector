@@ -1,0 +1,77 @@
+
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body styles */
+  body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px auto; /* Center the content horizontally */
+    background-image:
+  linear-gradient(112.51deg, #c1d3ff 0%, #dcf5f7 49%, #fcd9e9 100%);
+  }
+
+  /* Heading styles */
+  h1 {
+    font-family: 'Kalnia', serif;
+    margin-bottom: 20px;
+    color: #333; /* Set text color */
+    background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+     font-size: 78;/* Adjust the font size */
+
+  }
+
+#result {
+     background: #6959CF;
+background: linear-gradient(to right, #6959CF 56%, #7FCF17 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+  /* Button styles */
+  .b {
+    padding: 12px 24px; /* Slightly increased padding for better click area */
+    margin: 10px;
+    font-size: 18px; /* Increased font size */
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+  }
+
+  /* Common button styles */
+  .btn_record,
+  .btn_stop,
+  .btn_dwn {
+    border: none;
+    outline: none; /* Remove default button focus outline */
+  }
+
+  /* Button color variations */
+  .btn_record {
+    background-color: #dc3545; /* Red color for record button */
+    color: #fff;
+  }
+
+  .btn_stop {
+    background-color: #ffc107; /* Yellow color for stop button */
+    color: #333;
+  }
+
+  .btn_dwn {
+    background-color: #28a745; /* Green color for play button */
+    color: #fff;
+    display:none;
+  }
+
+  /* Hover styles for buttons */
+  .btn:hover {
+    opacity: 0.8; /* Reduce opacity on hover for a subtle effect */
+  }
